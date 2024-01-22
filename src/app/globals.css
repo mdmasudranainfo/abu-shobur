@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.primary {
+  color: #000000;
+}
+.primary_bg {
+  background-color: #000000;
+}
+.secondary {
+  color: #222222e9;
+}
+
+.text-color {
+  color: #3d3d3d;
+}
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+  
+}
+
+/*  slider  */
+.category_slick .slick-prev,
+.category_slick .slick-next {
+  color: black;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000000;
+  color: black !important;
+}
+ 
